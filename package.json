@@ -1,0 +1,8 @@
+{
+  "name": "Test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/WangLinJu/Test.git",
+  "author": "siqiang.wang <328233256@qq.com>",
+  "license": "MIT"
+}
