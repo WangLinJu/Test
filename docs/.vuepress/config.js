@@ -4,11 +4,13 @@ const navConfig = require('./config/navConfig');
 const sidebarConfig = require('./config/sidebarConfig');
 
 module.exports = {
+    navbar: true,
     head: headConfig,
     plugins: pluginConfig,
     themeConfig: {
         lastUpdated: '最后更新时间',
         nav: navConfig,
-        sidebar: sidebarConfig
+        sidebar: sidebarConfig,
+        sidebar: 'auto'
     }
 }
